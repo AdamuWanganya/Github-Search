@@ -17,11 +17,11 @@
             </div>
             <div class="col-sm-5">
                 <ul class="list-group">
-                    <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
-                    <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
-                    <li class="list-group-item" *ngIf="profile.blog">{{profile.blog}}</li>
-                    <li class="list-group-item" *ngIf="profile.email">
-                        <a href="emailto:{{profile.email}}"> {{profile.email}}</a>
+                    <li class="list-group-item" *ngIf="profile.bio"appHighlight>{{profile.bio}}</li>
+                    <li class="list-group-item" *ngIf="profile.hireable"appHighlight>Available for hire</li>
+                    <li class="list-group-item" *ngIf="profile.blog"appHighlight>{{profile.blog}}</li>
+                    <li class="list-group-item" *ngIf="profile.email"appHighlight>
+                        <a href="emailto:{{profile.email}}"appHighlight> {{profile.email}}</a>
                     </li>
                 </ul>
             </div>
