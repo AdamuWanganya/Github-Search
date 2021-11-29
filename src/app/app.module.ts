@@ -10,13 +10,15 @@ import { ProfileComponent } from './profile/profile.component';
 import { FormsModule } from '@angular/forms';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     HighlightDirective,
-    DateCountPipe
+    DateCountPipe,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
