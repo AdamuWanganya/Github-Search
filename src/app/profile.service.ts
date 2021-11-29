@@ -25,5 +25,8 @@ getprofileRepos(){
   return this.http.get("https://api.github.com/users/" + this.username + "/repos?client-id=" + this.clientid + "&client-secret=" + this.clientsecret);
 
 }
+updateprofile(username:String){
+this.username = username;  
+}
 
 }

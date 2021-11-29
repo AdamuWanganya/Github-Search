@@ -1,3 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+* {
+  font-size:large;
+    color: black;
+    background-image: url(../src/assets/white.png);
+    background-repeat: repeat;
+}
